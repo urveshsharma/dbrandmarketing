@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #ffffff;
+
+    .logo{
+        justify-content: flex-start;
+    }
+
+    .navlinks{
+        justify-content: flex-end;
+        align-items: center;
+        a {
+            text-decoration: none;
+            padding: 3px 10px;
+            margin-bottom: 10px;
+            box-shadow: -2px -2px 5px grey;
+        }
+
+    }
+}
